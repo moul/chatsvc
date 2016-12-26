@@ -1,0 +1,58 @@
+hash: 99c69d5f13a2388338fbffc97f74f54291ee5240769da6e4b2d3ab69d1a10429
+updated: 2016-12-26T16:41:47.039474267+01:00
+imports:
+- name: github.com/dgrijalva/jwt-go
+  version: 9ed569b5d1ac936e6494082958d63a6aa4fff99a
+- name: github.com/go-kit/kit
+  version: f66b0e13579bfc5a48b9e2a94b1209c107ea1f41
+  subpackages:
+  - auth/jwt
+  - endpoint
+  - log
+  - transport/grpc
+  - transport/http
+- name: github.com/go-logfmt/logfmt
+  version: 390ab7935ee28ec6b286364bba9b4dd6410cb3d5
+- name: github.com/go-stack/stack
+  version: 100eb0c0a9c5b306ca2fb4f165df21d80ada4b82
+- name: github.com/gogo/protobuf
+  version: 84af2615df1ba1d35cc975ba94b64ee67d6c196e
+  subpackages:
+  - proto
+- name: github.com/golang/protobuf
+  version: 8ee79997227bf9b34611aee7946ae64735e6fd93
+  subpackages:
+  - proto
+- name: github.com/kr/logfmt
+  version: b84e30acd515aadc4b783ad4ff83aff3299bdfe0
+- name: github.com/moul/protoc-gen-gotemplate
+  version: d6aa9a06cc433086ac12579b74f0e923e6419b01
+  subpackages:
+  - examples/go-kit/templates
+- name: github.com/urfave/cli
+  version: 0bdeddeeb0f650497d603c4ad7b20cfe685682f6
+- name: golang.org/x/net
+  version: 45e771701b814666a7eb299e6c7a57d0b1799e91
+  subpackages:
+  - context
+  - context/ctxhttp
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: google.golang.org/grpc
+  version: 708a7f9f3283aa2d4f6132d287d78683babe55c8
+  subpackages:
+  - codes
+  - credentials
+  - grpclog
+  - internal
+  - metadata
+  - naming
+  - peer
+  - stats
+  - tap
+  - transport
+testImports: []
