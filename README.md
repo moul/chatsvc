@@ -1,7 +1,7 @@
 # chatsvc
-:gift: chat micro-service using nats and go-kit (gRPC + http)
+:gift: chat micro-service using nats gRPC streams
 
-A chat micro-service, developed using [nats](http://nats.io), [Protobuf](https://github.com/google/protobuf) and [Go-Kit](https://github.com/go-kit/kit), with more that 75% boilerplate code generated automatically using [protoc-gen-gotemplate](https://github.com/moul/protoc-gen-gotemplate).
+A chat micro-service, developed using [nats](http://nats.io), [Protobuf](https://github.com/google/protobuf).
 
 ## Usage
 
