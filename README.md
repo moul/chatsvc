@@ -1,4 +1,7 @@
 # chatsvc
+
+[![GuardRails badge](https://badges.production.guardrails.io/moul/chatsvc.svg)](https://www.guardrails.io)
+
 :gift: chat micro-service using nats gRPC streams
 
 A chat micro-service, developed using [nats](http://nats.io), [Protobuf](https://github.com/google/protobuf).
